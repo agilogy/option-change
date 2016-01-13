@@ -1,6 +1,6 @@
-package com.agilogy.json
+package com.agilogy.optionchange
 
-import _root_.com.agilogy.json.OptionChangeFormat.OptionChangePathOps
+import _root_.com.agilogy.optionchange.OptionChangeFormat.OptionChangePathOps
 import org.scalatest.FlatSpec
 import play.api.libs.functional.syntax._
 import play.api.libs.json._

@@ -1,4 +1,4 @@
-package com.agilogy.json
+package com.agilogy.optionchange
 
 import play.api.libs.json._
 

@@ -23,9 +23,9 @@ publishMavenStyle := false
 
 // --> bintray
 
-// repository in bintray := "scala"
+bintrayRepository := "scala"
 
-bintrayOrganization in bintray := Some("agilogy")
+bintrayOrganization := Some("agilogy")
 
 // packageLabels in bintray := Seq("scala")
 
