@@ -2,9 +2,11 @@ organization := "com.agilogy"
 
 name := "option-change"
 
-version := "0.1"
+version := "0.1.1"
 
-scalaVersion := "2.10.4"
+scalaVersion := "2.10.6"
+
+crossScalaVersions := Seq("2.10.6","2.11.7")
 
 scalacOptions ++= Seq(
   "-feature",
