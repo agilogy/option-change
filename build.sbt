@@ -2,7 +2,7 @@ organization := "com.agilogy"
 
 name := "option-change"
 
-version := "0.1.1"
+version := "1.0"
 
 scalaVersion := "2.10.6"
 
@@ -17,7 +17,7 @@ scalacOptions ++= Seq(
 resolvers ++= Seq("Typesafe repository" at "http://repo.typesafe.com/typesafe/releases/")
 
 libraryDependencies ++= Seq(
-  "com.typesafe.play" %% "play-json" % "2.3.9",
+  "com.typesafe.play" %% "play-json" % "2.4.6",
   "org.scalatest" %% "scalatest" % "2.2.4" % "test"
 )
 
